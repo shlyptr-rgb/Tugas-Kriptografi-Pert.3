@@ -1,3 +1,20 @@
-<img width="1907" height="999" alt="image" src="https://github.com/user-attachments/assets/ee74ff43-1008-472c-b165-0e267cb00bb3" />
-<img width="1915" height="1000" alt="image" src="https://github.com/user-attachments/assets/fc5ff705-00dc-4efd-9203-0c85916481c1" />
-<img width="1915" height="999" alt="image" src="https://github.com/user-attachments/assets/5d78808d-c998-4e9b-9ce5-73c40a145c4d" />
+# 3 Aplikasi Cipher Klasik — Sherly Putri Salsabillah
+
+Tugas Kriptografi: membuat 3 aplikasi sistem cipher berdasarkan materi **Ragam Cipher Klasik (Bagian 1)**.
+
+## Aplikasi
+1. **Caesar Cipher** — cipher substitusi dengan pergeseran kunci 0–25.
+2. **Vigenère Cipher** — cipher abjad-majemuk menggunakan kata kunci.
+3. **Columnar Transposition Cipher** — cipher transposisi dengan pembacaan kolom berdasarkan urutan alfabet kata kunci.
+
+## Cara menjalankan
+Tidak membutuhkan database atau instalasi. Masuk ke folder aplikasi lalu buka `index.html` di browser.
+
+## Upload ke GitHub
+Buat repository GitHub, misalnya `3-aplikasi-cipher-sherly`, lalu upload folder:
+- `01-Caesar-Cipher`
+- `02-Vigenere-Cipher`
+- `03-Columnar-Transposition`
+- `README.md`
+
+Materi sumber menjelaskan Caesar Cipher sebagai substitusi, Vigenère sebagai cipher abjad-majemuk, dan Columnar Transposition sebagai cipher transposisi. 
