@@ -18,3 +18,7 @@ Buat repository GitHub, misalnya `3-aplikasi-cipher-sherly`, lalu upload folder:
 - `README.md`
 
 Materi sumber menjelaskan Caesar Cipher sebagai substitusi, Vigenère sebagai cipher abjad-majemuk, dan Columnar Transposition sebagai cipher transposisi. 
+
+<img width="1907" height="999" alt="Screenshot 2026-09-30 134151" src="https://github.com/user-attachments/assets/10de70d6-2ed3-4ee6-82d6-227f3d0ab62e" />
+<img width="1915" height="1000" alt="Screenshot 2026-09-30 134337" src="https://github.com/user-attachments/assets/f97eaeec-494b-4df6-8a2e-01bc9c3a44ea" />
+<img width="1915" height="999" alt="Screenshot 2026-09-30 134639" src="https://github.com/user-attachments/assets/4a293c77-71af-42a3-9b9d-0386262dcf24" />
