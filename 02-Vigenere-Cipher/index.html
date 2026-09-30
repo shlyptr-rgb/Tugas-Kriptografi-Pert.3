@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Vigenère Cipher - Sherly</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="card"><div class="badge">KRIPTOGRAFI KLASIK</div><h1>Vigenère Cipher</h1><p class="desc">Substitusi polialfabetik menggunakan kata kunci.</p>
+<label>Pesan</label><textarea id="text" placeholder="Masukkan plainteks atau cipherteks..."></textarea>
+<label>Kata Kunci</label><input id="key" type="text" placeholder="Contoh: LAMPION">
+<div class="row"><div><label>Mode</label><select id="mode"><option value="enc">Enkripsi</option><option value="dec">Dekripsi</option></select></div></div>
+<div class="actions"><button onclick="process()">Proses</button><button class="secondary" onclick="clearAll()">Reset</button></div>
+<label>Hasil</label><textarea id="result" readonly></textarea>
+<div class="formula">Enkripsi: C = (P + K) mod 26 &nbsp; | &nbsp; Dekripsi: P = (C − K) mod 26</div>
+<footer>by Sherly Putri Salsabillah</footer></main><script src="script.js"></script></body></html>

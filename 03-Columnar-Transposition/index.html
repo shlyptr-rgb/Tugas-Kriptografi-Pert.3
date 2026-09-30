@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Columnar Transposition - Sherly</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="card"><div class="badge">KRIPTOGRAFI KLASIK</div><h1>Columnar Transposition</h1><p class="desc">Huruf disusun dalam tabel lalu dibaca secara vertikal sesuai urutan kunci.</p>
+<label>Pesan</label><textarea id="text" placeholder="Masukkan plainteks atau cipherteks..."></textarea>
+<label>Kata Kunci</label><input id="key" type="text" placeholder="Contoh: TOMBAK">
+<div class="row"><div><label>Mode</label><select id="mode"><option value="enc">Enkripsi</option><option value="dec">Dekripsi</option></select></div></div>
+<div class="actions"><button onclick="process()">Proses</button><button class="secondary" onclick="clearAll()">Reset</button></div>
+<label>Hasil</label><textarea id="result" readonly></textarea>
+<div class="formula">Enkripsi: tulis horizontal → baca vertikal sesuai urutan alfabet kunci.</div>
+<footer>by Sherly Putri Salsabillah</footer></main><script src="script.js"></script></body></html>

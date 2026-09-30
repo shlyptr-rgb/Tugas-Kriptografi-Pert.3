@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Caesar Cipher - Sherly</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="card"><div class="badge">KRIPTOGRAFI KLASIK</div><h1>Caesar Cipher</h1><p class="desc">Substitusi alfabet dengan pergeseran kunci <b>k</b>.</p>
+<label>Pesan</label><textarea id="text" placeholder="Masukkan plainteks atau cipherteks..."></textarea>
+<div class="row"><div><label>Kunci (0–25)</label><input id="key" type="number" min="0" max="25" value="3"></div>
+<div><label>Mode</label><select id="mode"><option value="enc">Enkripsi</option><option value="dec">Dekripsi</option></select></div></div>
+<div class="actions"><button onclick="process()">Proses</button><button class="secondary" onclick="clearAll()">Reset</button></div>
+<label>Hasil</label><textarea id="result" readonly placeholder="Hasil akan tampil di sini..."></textarea>
+<div class="formula">Enkripsi: c = (p + k) mod 26 &nbsp; | &nbsp; Dekripsi: p = (c − k) mod 26</div>
+<footer>by Sherly Putri Salsabillah</footer></main><script src="script.js"></script></body></html>
